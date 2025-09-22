@@ -96,7 +96,7 @@ const Projects = () => {
         {/* Projects Grid */}
         <div className="grid lg:grid-cols-2 gap-8">
           {projects.map((project, index) => (
-            <Card key={index} className="bg-card-gradient border-0 shadow-card hover-lift group animate-slide-up" style={{ animationDelay: `${index * 0.2}s` }}>
+            <Card key={index} className={`bg-card-gradient border-0 shadow-card hover-lift group animate-slide-up`} style={{ animationDelay: `${index * 0.2}s` }}>
               <CardHeader>
                 <div className="flex items-start justify-between">
                   <div className="flex items-center gap-3">

@@ -82,7 +82,7 @@ const About = () => {
           </div>
 
           {/* Right Column - Highlights */}
-          <div className="grid sm:grid-cols-2 gap-6 animate-slide-up" style={{ animationDelay: '0.2s' }}>
+          <div className="grid sm:grid-cols-2 gap-6 animate-slide-up [animation-delay:0.2s]">
             {highlights.map((highlight, index) => (
               <Card key={index} className="bg-card-gradient border-0 shadow-soft hover-lift group">
                 <CardContent className="p-6 text-center">
@@ -98,7 +98,7 @@ const About = () => {
         </div>
 
         {/* Tech Stack Preview */}
-        <div className="mt-16 text-center animate-slide-up" style={{ animationDelay: '0.4s' }}>
+        <div className="mt-16 text-center animate-slide-up [animation-delay:0.4s]">
           <h3 className="text-xl font-semibold mb-6">Technologies I Work With</h3>
           <div className="flex flex-wrap justify-center gap-3">
             {[

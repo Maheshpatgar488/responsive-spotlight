@@ -10,9 +10,9 @@ const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Background Effects */}
-      <div className="absolute inset-0 bg-hero-gradient opacity-5"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-accent/5"></div>
       <div className="absolute top-20 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl animate-float"></div>
-      <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }}></div>
+      <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent/10 rounded-full blur-3xl animate-float [animation-delay:2s]"></div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 relative z-10">
         <div className="text-center animate-fade-in">
@@ -33,12 +33,12 @@ const Hero = () => {
             </span>
           </h1>
 
-          <p className="text-xl sm:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto animate-slide-up" style={{ animationDelay: '0.2s' }}>
+          <p className="text-xl sm:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto animate-slide-up [animation-delay:0.2s]">
             2.7+ years crafting responsive, scalable web applications with React.js, Angular, and modern JavaScript
           </p>
 
           {/* Location & Contact */}
-          <div className="flex flex-wrap items-center justify-center gap-6 mb-8 text-muted-foreground animate-slide-up" style={{ animationDelay: '0.4s' }}>
+          <div className="flex flex-wrap items-center justify-center gap-6 mb-8 text-muted-foreground animate-slide-up [animation-delay:0.4s]">
             <div className="flex items-center gap-2">
               <MapPin className="h-4 w-4" />
               <span>Mumbai, Maharashtra</span>
@@ -54,7 +54,7 @@ const Hero = () => {
           </div>
 
           {/* Action Buttons */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 animate-slide-up" style={{ animationDelay: '0.6s' }}>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 animate-slide-up [animation-delay:0.6s]">
             <Button variant="hero" size="lg" className="hover-lift">
               <Download className="mr-2 h-4 w-4" />
               Download Resume
@@ -65,7 +65,7 @@ const Hero = () => {
           </div>
 
           {/* Social Links */}
-          <div className="flex items-center justify-center gap-4 animate-slide-up" style={{ animationDelay: '0.8s' }}>
+          <div className="flex items-center justify-center gap-4 animate-slide-up [animation-delay:0.8s]">
             <Button variant="ghost" size="sm" asChild className="hover-lift">
               <a href="https://github.com/maheshpatgar" target="_blank" rel="noopener noreferrer">
                 <Github className="h-5 w-5" />
@@ -84,7 +84,7 @@ const Hero = () => {
           </div>
 
           {/* Scroll Indicator */}
-          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+          <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
             <button onClick={scrollToNext} className="text-muted-foreground hover:text-foreground transition-colors">
               <ArrowDown className="h-6 w-6" />
             </button>

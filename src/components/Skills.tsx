@@ -121,7 +121,7 @@ const Skills = () => {
         {/* Technical Skills Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
           {skillCategories.map((category, index) => (
-            <Card key={index} className="bg-card-gradient border-0 shadow-card hover-lift animate-slide-up" style={{ animationDelay: `${index * 0.1}s` }}>
+            <Card key={index} className={`bg-card-gradient border-0 shadow-card hover-lift animate-slide-up`} style={{ animationDelay: `${index * 0.1}s` }}>
               <CardHeader>
                 <CardTitle className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-skill-gradient rounded-lg flex items-center justify-center">
@@ -148,7 +148,7 @@ const Skills = () => {
         </div>
 
         {/* Soft Skills */}
-        <div className="mb-16 animate-slide-up" style={{ animationDelay: '0.6s' }}>
+        <div className="mb-16 animate-slide-up [animation-delay:0.6s]">
           <Card className="bg-card-gradient border-0 shadow-card">
             <CardHeader>
               <CardTitle className="flex items-center gap-3">
@@ -171,7 +171,7 @@ const Skills = () => {
         </div>
 
         {/* Achievements & Certifications */}
-        <div className="animate-slide-up" style={{ animationDelay: '0.8s' }}>
+        <div className="animate-slide-up [animation-delay:0.8s]">
           <Card className="bg-skill-gradient border-0 shadow-card">
             <CardHeader>
               <CardTitle className="flex items-center gap-3 text-center justify-center">

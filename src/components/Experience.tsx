@@ -65,7 +65,7 @@ const Experience = () => {
         {/* Timeline */}
         <div className="space-y-8">
           {experiences.map((exp, index) => (
-            <Card key={index} className="bg-card-gradient border-0 shadow-card hover-lift animate-slide-up" style={{ animationDelay: `${index * 0.2}s` }}>
+            <Card key={index} className={`bg-card-gradient border-0 shadow-card hover-lift animate-slide-up`} style={{ animationDelay: `${index * 0.2}s` }}>
               <CardContent className="p-8">
                 <div className="grid lg:grid-cols-3 gap-8">
                   {/* Company Info */}

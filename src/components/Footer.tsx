@@ -55,7 +55,7 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div className="animate-fade-in" style={{ animationDelay: '0.2s' }}>
+          <div className="animate-fade-in [animation-delay:0.2s]">
             <h3 className="font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-3">
               {quickLinks.map((link, index) => (
@@ -72,7 +72,7 @@ const Footer = () => {
           </div>
 
           {/* Contact Info */}
-          <div className="animate-fade-in" style={{ animationDelay: '0.4s' }}>
+          <div className="animate-fade-in [animation-delay:0.4s]">
             <h3 className="font-semibold mb-4">Get In Touch</h3>
             <div className="space-y-3 text-sm">
               <p className="text-muted-foreground">

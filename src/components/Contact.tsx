@@ -150,7 +150,7 @@ const Contact = () => {
             </Card>
 
             {/* Social Links */}
-            <Card className="bg-card-gradient border-0 shadow-card hover-lift animate-slide-up" style={{ animationDelay: '0.2s' }}>
+            <Card className="bg-card-gradient border-0 shadow-card hover-lift animate-slide-up [animation-delay:0.2s]">
               <CardHeader>
                 <CardTitle className="flex items-center gap-3">
                   <ExternalLink className="h-5 w-5" />
@@ -180,7 +180,7 @@ const Contact = () => {
             </Card>
 
             {/* Quick Actions */}
-            <Card className="bg-skill-gradient border-0 shadow-soft animate-slide-up" style={{ animationDelay: '0.4s' }}>
+            <Card className="bg-skill-gradient border-0 shadow-soft animate-slide-up [animation-delay:0.4s]">
               <CardContent className="p-6 space-y-4">
                 <h3 className="font-semibold text-center">Quick Actions</h3>
                 <div className="space-y-3">
@@ -201,7 +201,7 @@ const Contact = () => {
 
           {/* Contact Form */}
           <div className="lg:col-span-2">
-            <Card className="bg-card-gradient border-0 shadow-card animate-slide-up" style={{ animationDelay: '0.3s' }}>
+            <Card className="bg-card-gradient border-0 shadow-card animate-slide-up [animation-delay:0.3s]">
               <CardHeader>
                 <CardTitle className="flex items-center gap-3">
                   <Send className="h-5 w-5" />
