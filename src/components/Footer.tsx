@@ -37,12 +37,12 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <Button variant="ghost" size="sm" asChild className="hover-lift">
-                <a href="https://github.com/maheshpatgar" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/Maheshpatgar488" target="_blank" rel="noopener noreferrer">
                   <Github className="h-5 w-5" />
                 </a>
               </Button>
               <Button variant="ghost" size="sm" asChild className="hover-lift">
-                <a href="https://linkedin.com/in/maheshpatgar" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/mahesh-patgar-795979360/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-5 w-5" />
                 </a>
               </Button>

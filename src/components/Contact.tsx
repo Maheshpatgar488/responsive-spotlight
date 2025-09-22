@@ -52,15 +52,15 @@ const Contact = () => {
     {
       icon: <Github className="h-5 w-5" />,
       title: "GitHub",
-      value: "github.com/maheshpatgar",
-      link: "https://github.com/maheshpatgar",
+      value: "github.com/Maheshpatgar488",
+      link: "https://github.com/Maheshpatgar488",
       description: "Check out my code repositories"
     },
     {
       icon: <Linkedin className="h-5 w-5" />,
       title: "LinkedIn",
-      value: "linkedin.com/in/maheshpatgar",
-      link: "https://linkedin.com/in/maheshpatgar",
+      value: "linkedin.com/in/mahesh-patgar-795979360",
+      link: "https://www.linkedin.com/in/mahesh-patgar-795979360/",
       description: "Connect with me professionally"
     }
   ];
@@ -184,9 +184,11 @@ const Contact = () => {
               <CardContent className="p-6 space-y-4">
                 <h3 className="font-semibold text-center">Quick Actions</h3>
                 <div className="space-y-3">
-                  <Button className="w-full hover-lift" variant="default">
-                    <Download className="mr-2 h-4 w-4" />
-                    Download Resume
+                  <Button className="w-full hover-lift" variant="default" asChild>
+                    <a href="https://drive.google.com/file/d/1bV6vooQXN1GUwfsoJG288j2HiTGkgJAO/view" target="_blank" rel="noopener noreferrer">
+                      <Download className="mr-2 h-4 w-4" />
+                      Download Resume
+                    </a>
                   </Button>
                   <Button className="w-full hover-lift" variant="outline" asChild>
                     <a href="https://calendly.com/maheshpatgar" target="_blank" rel="noopener noreferrer">

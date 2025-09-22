@@ -55,9 +55,11 @@ const Hero = () => {
 
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 animate-slide-up [animation-delay:0.6s]">
-            <Button variant="hero" size="lg" className="hover-lift">
-              <Download className="mr-2 h-4 w-4" />
-              Download Resume
+            <Button variant="hero" size="lg" className="hover-lift" asChild>
+              <a href="https://drive.google.com/file/d/1bV6vooQXN1GUwfsoJG288j2HiTGkgJAO/view" target="_blank" rel="noopener noreferrer">
+                <Download className="mr-2 h-4 w-4" />
+                Download Resume
+              </a>
             </Button>
             <Button variant="outline" size="lg" className="hover-lift" onClick={scrollToNext}>
               View My Work
@@ -67,12 +69,12 @@ const Hero = () => {
           {/* Social Links */}
           <div className="flex items-center justify-center gap-4 animate-slide-up [animation-delay:0.8s]">
             <Button variant="ghost" size="sm" asChild className="hover-lift">
-              <a href="https://github.com/maheshpatgar" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Maheshpatgar488" target="_blank" rel="noopener noreferrer">
                 <Github className="h-5 w-5" />
               </a>
             </Button>
             <Button variant="ghost" size="sm" asChild className="hover-lift">
-              <a href="https://linkedin.com/in/maheshpatgar" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/mahesh-patgar-795979360/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="h-5 w-5" />
               </a>
             </Button>
