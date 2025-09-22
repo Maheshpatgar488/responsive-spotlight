@@ -18,8 +18,8 @@ const Projects = () => {
         "Contact form with EmailJS integration",
         "Embedded map integration"
       ],
-      github: "https://github.com/maheshpatgar/ecomm-food-stores",
-      demo: "https://maheshpatgar.github.io/ecomm-food-stores",
+      github: "https://github.com/Maheshpatgar488/ecomm-food-stores",
+      demo: "https://maheshpatgar488.github.io/Ecomm-Food-Stores/",
       icon: <ShoppingCart className="h-6 w-6" />,
       category: "E-commerce"
     },
@@ -37,8 +37,8 @@ const Projects = () => {
         "Dummy payment flow implementation",
         "Modern React hooks and patterns"
       ],
-      github: "https://github.com/maheshpatgar/food-villae",
-      demo: "https://maheshpatgar.github.io/food-villae",
+      
+      demo: "https://fooodvillae.netlify.app/",
       icon: <Zap className="h-6 w-6" />,
       category: "React Application"
     },
@@ -55,29 +55,12 @@ const Projects = () => {
         "Cross-browser compatibility",
         "SEO-optimized structure"
       ],
-      github: "https://github.com/maheshpatgar/beauty-products",
-      demo: "#",
+      github: "https://github.com/Maheshpatgar488/virunaesthetics.com-v1",
+      demo: "https://maheshpatgar488.github.io/virunaesthetics.com-v1/",
       icon: <Mail className="h-6 w-6" />,
       category: "Business Website"
     },
-    {
-      title: "Angular Portfolio Sites",
-      description: "Multiple high-performance Angular websites with 25% improvement in Lighthouse scores through strategic optimization techniques.",
-      longDescription: "Developed and deployed 3+ Angular-based websites with focus on performance optimization, achieving significant improvements in Lighthouse scores through refined font choices, optimized image sizes, and enhanced overall design architecture.",
-      technologies: ["Angular 14", "TypeScript", "HTML5", "CSS3", "Plesk Server"],
-      features: [
-        "25% performance score improvement",
-        "Optimized Lighthouse scores",
-        "Real-time deployment capabilities",
-        "Font and image optimization",
-        "Server deployment on Plesk",
-        "System failure reduction by 15%"
-      ],
-      github: "https://github.com/maheshpatgar/angular-portfolio",
-      demo: "#",
-      icon: <MapPin className="h-6 w-6" />,
-      category: "Angular Applications"
-    }
+   
   ];
 
   return (
